@@ -1,0 +1,57 @@
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-image-1 {
+    background-image: url(/img/Arduino\ Board.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-2 {
+    background-image: url(/img/Module\ Relay.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-3 {
+    background-image: url(/img/Light\ Smart.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel {
+    text-shadow: 0 0 4px black;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        display: none;
+    }
+
+    #about {
+        height: 250px;
+    }
+}
+
+#about {
+    min-height: 200px;
+    position: relative;
+    background-image: url(/img/About\ me.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.About {
+    text-shadow: 0 0 4px black;
+    text-align: center;
+}
